@@ -17,7 +17,7 @@ int main(void)
     if (all_days!=0)
         printf("%d天总共;   %0.1f%%是低于零摄氏度的。\n",
         all_days,100.0*(float)cold_days / all_days);
-        else
+    else
          printf("没有数据输入！\n");
     return 0 ;
 }
