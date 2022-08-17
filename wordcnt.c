@@ -16,7 +16,7 @@ int main(void)
 
     printf("输入要分析的文本(|终止):\n");
     prev = '\n' ;   //用于识别完整的行
-    while (c = getchar()!=STOP);
+    while ((c = getchar())!=STOP)
     {
         n_chars++;  //统计字符
         if(c=='\n')
